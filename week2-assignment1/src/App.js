@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import Info from './Info.js';
 
 function App() {
@@ -8,7 +6,7 @@ function App() {
     <div className="App">
 
       <Info 
-        text = {{title: 'The Castle of Otranto', subtitle: 'A Gothic Story', information: 'A novel by Horace Walpole, published under a pseudonym in 1764 (though first editions bear the next year’s date). It is considered the first Gothic novel in the English language, and it is often said to have founded the horror story as a legitimate literary form.', color:'red' }}
+        text = {{title: 'Gone with the Wind', subtitle: 'A Gothic Story', information: 'A novel by Horace Walpole, published under a pseudonym in 1764 (though first editions bear the next year’s date). It is considered the first Gothic novel in the English language, and it is often said to have founded the horror story as a legitimate literary form.', color:'red' }}
       />
 
       <Info 
