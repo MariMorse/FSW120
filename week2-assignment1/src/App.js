@@ -6,43 +6,43 @@ function App() {
     <div className="App">
 
       <Info 
-        text = {{title: 'Gone with the Wind', subtitle: 'A Gothic Story', information: 'A novel by Horace Walpole, published under a pseudonym in 1764 (though first editions bear the next year’s date). It is considered the first Gothic novel in the English language, and it is often said to have founded the horror story as a legitimate literary form.', color:'red' }}
+        text = {{title: 'Gone with the Wind', subtitle: 'Historical Fiction', information: 'A novel by Margaret Mitchell, first published in 1936. The story is about  the struggles of young Scarlett OHara, the spoiled daughter of a well-to-do plantation owner, who must use every means at her disposal to claw her way out of poverty following Shermans destructive March to the Sea.', color: 'lightBlue' }}
       />
 
       <Info 
-        text = {{title: 'Frankenstein', subtitle: 'The Modern Prometheus', information: `Portentous, perhaps, but Mary Shelley's subtitle to Frankenstein fearlessly declared that its author was making a modern myth. Now the gods are gone, humans make their own destroyers. Shelley was handing an essay title to generations of students.`, color:'gray' }}
+        text = {{title: 'To Kill a Mockingbird', subtitle: 'Racial injustice and the destruction of innocence', information: `The stroy, told by the six-year-old Jean Louise Finch, takes place during three years (1933-35). The childrens father 'Atticus' is appointed to represent Tom Robinson, a black man who has been accused of raping a young white woman, Mayella Ewell. This story also addresses issues of class, courage, compassion and gender roles in the Deep South. `, color:'gray' }}
       /> 
 
       <Info 
-        text = {{title: ' Madame Bovary', subtitle: 'Moeurs de Province', information: `Flaubert's quietly sardonic subtitle for Madame Bovary was calculated to make the book even more provoking to its ﬁrst readers. The story of adultery, stupidity and despair was presented as a study of "provincial habits". It was like saying, "this is what goes on in lovely Normandy"`, color:'blue' }}
+        text = {{title: 'The Diary of a Young Girl (Anne Frank),', subtitle: 'Autobiography World War II- Nazi Ocuppation of the Netherlands', information: `During the Nazi Occupation of the Netherlands, Anne Frank recieved a blank diary as one of her presents on her 13th birthday. The family soon went into hiding before they were found after 2 years and taken to concentration camps. Anne died at the age of 15 a few weeks before the prisoners were liberated by British troops on 15 April 1945`, color:'beige' }}
       />
 
       <Info 
-        text = {{title: 'The Good Soldier ', subtitle: 'A Tale of Passion', information: `A 1915 novel by the British writer Ford Madox Ford. It is set just before World War I, and chronicles the tragedy of Edward Ashburnham, the soldier to whom the title refers, and his seemingly perfect marriage, along with that of his two American friends. The novel is told using a series of flashbacks in non-chronological order, a literary technique that formed part of Ford's pioneering view of literary impressionism. Ford employs the device of the unreliable narrator to great effect, as the main character gradually reveals a version of events that is quite different from what the introduction leads the reader to believe. The novel was loosely based on two incidents of adultery and on Ford's messy personal life.`, color:'lightGreen' }}
+        text = {{title: 'Dark Prince', subtitle: 'Paranormal Romance Fantasy', information: `A book written by Christine Feehan, Mikhail Dubrinsky, Prince of the Carpathians, has worked tirelessly for centuries to discover why so many of their children die in the first years. When he is on the brink of despair and self-destruction that he meets a beutiful human psychic, Raven Whitney. When Mikhail meets Raven he realizes that she is his lifemate. But no human woman has ever been a lifemate to a Carpathian. All human females who have been converted become evil vile creatures....`, color:'lightGreen' }}
       />
 
       <Info 
-        text = {{title: 'Vanity Fair', subtitle: 'A Novel Without a Hero', information: 'Vanity Fair may be set during the Napoleonic wars, but Vanity Fair, Thackeray tells us, is where we all live, all the time. It is indeed an unheroic place. The subtitle lets us know in advance that no one will ride in on a charger to rescue the virtuous or punish the vicious.', color:'orange' }}
+        text = {{title: 'Alices Adventures in Wonderland ', subtitle: 'A tale of fantasy and adventure', information: 'It tells a story of a young girl named Alice wh falls through a rabbit hole into a subterranean fantasy world populated by peculiar.', color:'orange' }}
       />
 
       <Info 
-        text = {{title: 'The Wanderer', subtitle: 'Female Diffculties', information: 'When she gave this subtitle to The Wanderer, it was almost as if Fanny Burney foresaw all those academics writing feminist articles on her oeuvre. Juliet, a mysterious and penniless émigrée from revolutionary France, tries to make her way in London and encounters every kind of "diffculty" - but the subtitle indicates that this is a lengthy parable of the female condition', color:'purple' }}
+        text = {{title: 'Things Fall Apart', subtitle: 'African postcolinal literature', information: 'published in 1958, this novel follows an Igbo man named Okonkwo, describing his family, the village in Nigeria where he lives, and the effects of British colonialism on his native country. ', color:'purple' }}
       />
 
       <Info 
-        text = {{title: 'The Secret Agent', subtitle: 'A Simple Tale', information: 'Joseph Conrad insisted on this mordant subtitle for The Secret Agent, in which nothing is simple and the police are almost as sinister as the terrorists. By a bleak irony, the unwitting "agent" who carries the bomb to its destination - and gets blown to smithereens - is the simple-minded Stevie.', color:'yellow' }}
+        text = {{title: 'Adventures of Huckleberry Finn', subtitle: 'A boy and his adventures', information: 'A straightforward story about a boy and a runaway slave floating down the Mississippi River, published in 1885, this novel is a submersive confrontation of slavery and racisim.', color:'yellow' }}
       />
 
       <Info 
-        text = {{title: 'Twelfth Night', subtitle: 'What You Will', information: `A romantic comedy by William Shakespeare, believed to have been written around 1601–1602 as a Twelfth Night's entertainment for the close of the Christmas season. The play centres on the twins Viola and Sebastian, who are separated in a shipwreck. Viola (who is disguised as Cesario) falls in love with Duke Orsino, who in turn is in love with Countess Olivia. Upon meeting Viola, Countess Olivia falls in love with her thinking she is a man.`, color:'lightGray' }}
+        text = {{title: 'Watchmen', subtitle: 'Superheros Comic', information: `A comic set in an alternate reality that closely mirrors the contemporary world of the 1980s. The primary difference is the prescence of superheros. This occurs in the year 1983. `, color:'lightGray' }}
       />
 
       <Info 
-        text = {{title: `Tess of the d'Urbervilles`, subtitle: 'A Pure Woman', information: `A novel by Thomas Hardy. It initially appeared in a censored and serialised version, published by the British illustrated newspaper The Graphic in 1891, then in book form in three volumes in 1891, and as a single volume in 1892. Though now considered a major 19th-century English novel, even Hardy's fictional masterpiece, Tess of the d'Urbervilles received mixed reviews when it first appeared, in part because it challenged the sexual morals of late Victorian England.`, color:'#800020' }}
+        text = {{title: `Catch-22`, subtitle: 'A satirical War Novel', information: `Written by Joseph Heller, This novel is set during World War II, from 1942 to 1944. It mainly follows the life of antihero Captain John Yossarian. It examines the absurdity of war and military life through the experiences of Yossarian and his cohorts, who attepmt to maintain their sanity while fulfilling their service requirements so that they may return home. `, color:'#800020' }}
       />  
 
       <Info 
-        text = {{title: 'Peter Pan', subtitle: 'The Boy Who Wouldn’t Grow Up', information: 'A fictional character created by Scottish novelist and playwright J. M. Barrie. A free-spirited and mischievous young boy who can fly and never grows up, Peter Pan spends his never-ending childhood having adventures on the mythical island of Neverland as the leader of the Lost Boys, interacting with fairies, pirates, mermaids, Native Americans, and occasionally ordinary children from the world outside Neverland.', color:'#A67B5B' }}
+        text = {{title: 'Moby-Dick', subtitle: 'The white sperm whale', information: 'This novel was written by Herman Melville in 1851, a story about a captainof the whaling ship Pequod, who was obsessed with getting revenge on the white sperm whale that on the last ships voyage bit Ahabs leg off at the knee. Moby-Dick attacks the whaleboat killing all but one man on the boat who is later rescued.', color:'#A67B5B' }}
       />
       
     </div>
