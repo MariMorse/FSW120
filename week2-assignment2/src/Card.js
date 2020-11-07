@@ -17,7 +17,7 @@ function Card(props) {
         styles.backgroundColor ='lightBlue'
        }
     else if (props.timeToGo === 'Fall') {
-        styles.backgroundColor ='orange'
+        styles.backgroundColor ='brown'
        }
     else if (props.timeToGo === 'Summer') {
         styles.backgroundColor ='yellow'
