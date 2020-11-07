@@ -1,8 +1,21 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import blogItems from './blogItems'
+import BlogPost from './BlogPost'
+import Footer from './Footer'
+import NavBar from './NavBar'
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+function App() {
+  const blogComponents = blogItems.map(function(blog) {
+    return (
+      <BlogPost title={blog.title} subTitle={blog.subTitle} author={blog.author} date={blog.date}/>
+    )
+  })
+  return (
+    <div className="App">
+      <NavBar />
+      {blogComponents}
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
