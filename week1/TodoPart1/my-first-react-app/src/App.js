@@ -3,17 +3,14 @@ import React from "react"
 function App() {
     return (
         <div>
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
+            <p></p>
+            <input type="checkbox" />Get Coffee<br/>
             
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
+            <input type="checkbox" />Morning Run<br/>
             
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
+            <input type="checkbox" />Take Shower<br/>
             
-            <input type="checkbox" />
-            <p>Placeholder text here</p>
+            <input type="checkbox" />Start Schoolwork,Study<br/>
         </div>
     )
 }
