@@ -18,7 +18,7 @@ function App() {
       />
 
       <Info 
-        text = {{title: 'Dark Prince', subtitle: 'Paranormal Romance Fantasy', information: `A book written by Christine Feehan, Mikhail Dubrinsky, Prince of the Carpathians, has worked tirelessly for centuries to discover why so many of their children die in the first years. When he is on the brink of despair and self-destruction that he meets a beutiful human psychic, Raven Whitney. When Mikhail meets Raven he realizes that she is his lifemate. But no human woman has ever been a lifemate to a Carpathian. All human females who have been converted become evil vile creatures....`, color:'lightGreen' }}
+        text = {{title: 'Dark Prince', subtitle: 'Paranormal Romance Fantasy', information: `A book written by Christine Feehan, Mikhail Dubrinsky, Prince of the Carpathians, has worked tirelessly for centuries to discover why so many of their children die in the first years. When he is on the brink of despair and self-destruction that he meets a beutiful human psychic, Raven Whitney. When Mikhail meets Raven he realizes that she is his lifemate. But no human woman has ever been a lifemate to a Carpathian. All human females who have been converted become evil vile creatures....`, color:'#ff99cc' }}
       />
 
       <Info 
