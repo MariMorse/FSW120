@@ -14,7 +14,7 @@ function Info(props) {
 
             <h2 style={{fontSize: 40}}>{props.text.title}</h2>
             <h4 style={{fontSize: 30}}>Subtitle: {props.text.subtitle}</h4>
-            <p style={{fontSize: 25}}>Information: {props.text.information}</p>
+            <p style={{fontSize: 20}}>Information: {props.text.information}</p>
 
         </div>
     )
