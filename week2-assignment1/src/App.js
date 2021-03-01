@@ -10,7 +10,7 @@ function App() {
       />
 
       <Info 
-        text = {{title: 'To Kill a Mockingbird', subtitle: 'Racial injustice and the destruction of innocence', information: `The stroy, told by the six-year-old Jean Louise Finch, takes place during three years (1933-35). The childrens father 'Atticus' is appointed to represent Tom Robinson, a black man who has been accused of raping a young white woman, Mayella Ewell. This story also addresses issues of class, courage, compassion and gender roles in the Deep South. `, color:'gray' }}
+        text = {{title: 'To Kill A Mockingbird', subtitle: 'Racial injustice and the destruction of innocence', information: `The stroy, told by the six-year-old Jean Louise Finch, takes place during three years (1933-35). The childrens father 'Atticus' is appointed to represent Tom Robinson, a black man who has been accused of raping a young white woman, Mayella Ewell. This story also addresses issues of class, courage, compassion and gender roles in the Deep South. `, color:'gray' }}
       /> 
 
       <Info 
