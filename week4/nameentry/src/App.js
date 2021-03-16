@@ -1,5 +1,5 @@
 import React from 'react'
-import ListItems from './ListItems'
+import NameList from './NameList'
 
 class App extends React.Component {
   constructor(props) {
@@ -59,7 +59,7 @@ class App extends React.Component {
         </form>
 
         <ol>
-          <ListItems items={this.state.items}/>
+          <NameList items={this.state.items}/>
         </ol>
         
       </div>

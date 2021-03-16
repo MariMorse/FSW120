@@ -1,16 +1,21 @@
 import React from 'react'
 
-function ListItems(props) {
+function nameItems(props) {
     const items = props.items
-    const listItems = items.map(item => {
+    const nameItems = items.map(item => {
         return (
             <li key={item.key}>{item.text}
             </li>
         )
     })
     return(
-        <span>{listItems}</span>
+        <span>{nameItems}</span>
     )
 }
 
-export default ListItems
+
+
+
+
+
+export default nameItems
