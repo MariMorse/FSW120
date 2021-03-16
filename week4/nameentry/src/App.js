@@ -47,7 +47,7 @@ class App extends React.Component {
 
           <input 
             type='text' 
-            placeholder='Name'
+            placeholder='First Name'
             value={this.state.currentItem.text}
             onChange = {this.handleChange}  
           />
