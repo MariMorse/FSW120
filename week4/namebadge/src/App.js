@@ -1,3 +1,4 @@
+import './App.css';
 import Badge from './Badge.js'
 
 function App() {
