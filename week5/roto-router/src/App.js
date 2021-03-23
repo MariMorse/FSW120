@@ -9,22 +9,23 @@ function App() {
     return (
       <div>
         <nav>
+          <ul>
+            <li>
               <Link to="/">Home</Link>
-              <hr />
+            </li>  
               <Link to="/about">About</Link>
-              <hr />
-              <Link to="/services">Services</Link>      
+            <li>  
+              <Link to="/services">Services</Link>
+            </li>
+          </ul>      
         </nav>
-
 
           <Switch>
               <Route  exact path="/"><Home /></Route>
               <Route path="/about"><About /></Route>
               <Route path="/services"><Services /></Route>
           </Switch>
-        <header>
-          
-          </header>
+        
       </div>
     )
 }
