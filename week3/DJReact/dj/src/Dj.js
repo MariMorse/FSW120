@@ -3,9 +3,6 @@ import Square from "./Square"
 import "./dj.css"
 
 
-import messageTone from "./sounds/messageTone.mp3"
-import morseCode from "./sounds/morseCode.mp3"
-
 
 class Dj extends React.Component {
     constructor() {
