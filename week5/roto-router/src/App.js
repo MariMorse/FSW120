@@ -1,35 +1,32 @@
 import React from "react"
-import {Link, Switch, Route} from "react-router-dom"
-
+import './Router.css';
+import Nav from './pages/Nav'
+import Footer from './pages/Footer'
 import Home from "./pages/Home"
-import About from "./pages/About"
 import Services from "./pages/Services"
+import About from "./pages/About"
+
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+
+
+
+
 
 function App() {
     return (
       <div>
-        
-        <nav>
-          <ul className="header">
-            <li>
-              <Link to="/">Home</Link>
-            </li>  
-              <Link to="/about">About</Link>
-            <li>  
-              <Link to="/services">Services</Link>
-            </li>
-          </ul>      
-        </nav>
-        <div className="content">
-
-
-        </div>
-          <Switch>
-              <Route  exact path="/" component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/services" component={Services} />
-          </Switch>
-        
+        <br /><br />
+        <div style={{marginLeft:"30%", width:"800px"}}>  
+          <Router>
+            <Switch>
+                <Route  exact path='/Services'><Services /></Route>
+                <Route exact path='/About'><About /></Route>
+                <Route path='/'><Home /></Route>
+            </Switch>
+          </Router>
+          <Footer />
+        </div> 
       </div>
     )
 }
