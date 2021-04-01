@@ -1,6 +1,6 @@
 import React from "react"
 import './Router.css';
-import Nav from './pages/Nav'
+
 import Footer from './pages/Footer'
 import Home from "./pages/Home"
 import Services from "./pages/Services"
