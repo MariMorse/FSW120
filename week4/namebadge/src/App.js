@@ -39,7 +39,7 @@ submit(event) {
 }
   render() {
       return (
-          <div>
+          <div style={{border: '2px solid black'}}>
               <form id="form" action="./badgesubmit" method="post">
                    <input 
                       type="text"
