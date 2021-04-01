@@ -39,8 +39,8 @@ submit(event) {
 }
   render() {
       return (
-          <div style={{border: '2px solid black'}}>
-              <form id="form" action="./badgesubmit" method="post">
+          <div>
+              <form className="form" action="./badgesubmit" method="post">
                    <input 
                       type="text"
                       value={this.state.fName}
@@ -100,7 +100,7 @@ submit(event) {
                   <br/>
                   <textarea 
                       rows="15" 
-                      cols="30"
+                      cols="15"
                       type="textarea"
                       value={this.state.textArea}
                       name="textArea"
@@ -118,11 +118,12 @@ submit(event) {
                   >Submit
                   </button>
               </form>
-                  <h2>Badge: </h2> 
-                  <br></br>
-                  <br></br>
-                  <br></br>
+                  
+                  
+                  
               <div className="badgeContainer">
+              <h2>Badge: </h2> 
+                  
                   <div className="fn">
                       Name: {this.state.badges[0]} {this.state.badges[1]}
                   </div>
