@@ -35,6 +35,10 @@ input[type=submit] {
   
 }
 
+textarea {
+  border: 2px solid black;
+}
+
 .badgeContainer {
   display: grid;
   flex-flow: column;
