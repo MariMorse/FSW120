@@ -39,7 +39,7 @@ submit(event) {
 }
   render() {
       return (
-          <div>
+          <div className="page">
               <form className="form" action="./badgesubmit" method="post">
                    <input 
                       type="text"
@@ -59,7 +59,7 @@ submit(event) {
                       onChange={this.change}
                       required
                   />
-                  <br/>
+                  
                   <input 
                       type="text"
                       value={this.state.email}
@@ -78,7 +78,7 @@ submit(event) {
                       onChange={this.change}
                       required
                   />
-                  <br/>
+                  
                   <input 
                       type="number"
                       value={this.state.phone}
@@ -97,10 +97,10 @@ submit(event) {
                       onChange={this.change}
                       required
                   />
-                  <br/>
+                 
                   <textarea 
-                      rows="15" 
-                      cols="15"
+                      rows="9" 
+                      
                       type="textarea"
                       value={this.state.textArea}
                       name="textArea"
@@ -109,9 +109,9 @@ submit(event) {
                       onChange={this.change}
                       required
                   />  
-                  <br/>
                   <button 
                       type="submit"
+                      className="input-submit"
                       name="submit"
                       value={this.state.badge}
                       onClick={this.submit}
@@ -119,10 +119,10 @@ submit(event) {
                   </button>
               </form>
                   
-                  
+              <h2>Badge: </h2> 
                   
               <div className="badgeContainer">
-              <h2>Badge: </h2> 
+                     
                   
                   <div className="fn">
                       Name: {this.state.badges[0]} {this.state.badges[1]}
@@ -131,7 +131,7 @@ submit(event) {
                       Phone: {this.state.badges[4]}
                   </div>
                   <div className="bp">
-                      Birth Place: {this.state.badges[3]}
+                    Place of Birth: {this.state.badges[3]}
                   </div>
                   <div className="fav">
                       Favorite Food: {this.state.badges[5]}
@@ -139,13 +139,16 @@ submit(event) {
                   <div className="em">
                       Email: {this.state.badges[2]}
                   </div>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <div className="text">
-                   {this.state.badges[6]}
-                  </div>
+                  
+                  <textarea
+                    rows="9" 
+                    cols="15"
+                    type="textarea"
+                    value={this.state.textArea}
+                    name="textArea"
+                    className="info"
+                    onChange={this.change}
+                    />
               </div>
           </div>
       )

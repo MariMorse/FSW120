@@ -1,46 +1,76 @@
-.form {
-    display: grid;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 10px;
+* {
+  box-sizing: border-box;
+  padding: 10px;
 }
 
-input[type=text], select {
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
+
+body {
+  padding: 1rem;
+}
+
+.form {
   display: grid;
-  border: 1px solid black;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  padding: 30px 40px 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  
+  
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  border: 2px solid black;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 input[type=number], select {
-  width: 50%;
+  width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
-  display: grid;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
-button {
-  
-}
-
-
 .a {
   border: 2px solid black;
+  grid-area: 4 / 1 / 4 / 3;
+}
+
+.input-submit {
+  width: 15%;
+  
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  grid-area: 5/ 1 / 5 / 3;
+}
+
+h2 {
+  background-color: gray;
+  color: whitesmoke;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  border: 2px solid black;
+  border-radius: 4px;
 }
 
 .badgeContainer {
   display: grid;
-  flex-flow: column;
+  grid-template-columns: auto auto;
+  grid-gap:  20px;
   border: 2px solid black;
   border-radius: 10px;
-  padding: 50px;
-  margin-top: 15px;
+  padding: 20px 40px 20px;
+  margin-bottom: 15px;
 }
 
 
+.info {
+  border: 2px solid black;
+  grid-area: 4 / 1 / 4 / 3;
+}
