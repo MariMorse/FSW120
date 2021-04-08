@@ -24,8 +24,8 @@ function Widgets() {
           options={{ height: 400 }}
         />
         <TwitterShareButton
-          url={"https://atharvadeosthale.com"}
-          options={{ text: "React Developer" }}
+          url={"https://twitter.com/MorseMarianne"}
+          options={{ text: "Web Dev Student" }}
         />
       </div>
     </div>
