@@ -1,3 +1,5 @@
+import React from "react";
+import "./Post.css";
 import { Avatar } from "@material-ui/core";
 import {
   ChatBubbleOutline,
@@ -6,8 +8,7 @@ import {
   Repeat,
   VerifiedUser,
 } from "@material-ui/icons";
-import React from "react";
-import "./Post.css";
+
 
 function Post({ displayName, username, verified, text, image, avatar }) {
   return (
