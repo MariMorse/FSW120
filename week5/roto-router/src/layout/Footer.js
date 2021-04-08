@@ -6,7 +6,7 @@ const Footer = () => (
     <span role='img' aria-label='purple heart'>
       💜
     </span>{' '}
-    by the Poppers community
+    React js by Marianne Morse
   </footer>
 );
 
