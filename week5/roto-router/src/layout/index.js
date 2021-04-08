@@ -11,6 +11,5 @@ const Layout = (props) => (
   </div>
 );
 
-// export default { Layout };
-// export { Layout, Nav };
+
 export { Layout, Nav, Footer };
