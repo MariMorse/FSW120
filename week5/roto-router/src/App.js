@@ -4,10 +4,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Home, About, Services } from './pages'
 
 
-
-
-import { Nav } from './layout';
-
 function App() {
   return (
     <Router className='relative'>
