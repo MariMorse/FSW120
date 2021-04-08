@@ -1,17 +1,30 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import { Home, About, Services } from './pages'
 
 
+
+
+import { Nav } from './layout';
+
 function App() {
   return (
-    <div>
-      <h1>Down the Drain Plumbing</h1>
-      <Home />
-      <About />
-      <Services />
-    </div>
+    <Router className='relative'>
+      <Switch>
+        <Route path='/about'>
+          <About />
+        </Route>
+        <Route path='/services'>
+          <Services />
+        </Route>
+        <Route path='/'>
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
 export default App;
+
