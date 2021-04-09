@@ -7,7 +7,7 @@ const navs = [
   { path: '/Services', name: 'Services' },
 ];
 const Nav = () => (
-  <nav className='bg-purple-600 text-purple-300 p-5 h-16 shadow'>
+  <nav className='bg-blue-600 text-blue-300 p-5 h-16 shadow'>
     <ul className='flex space-x-6 justify-start'>
       {navs.map((navItem) => (
         <li key={navItem.path}>
